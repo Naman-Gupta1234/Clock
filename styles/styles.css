@@ -1,17 +1,19 @@
 body{
     margin:0;
-    background-color: #47597E;
+    background-color: #3E4149;
 }
 h1{
     text-align:center;
     margin-top: 50px;
-    color:#DBE6FD;
+    color:#112D4E;
 }
 #container{
+    position:relative;
     background:url(../clock.png) no-repeat;
     background-size:100%;
     width:60vh;
     height:60vh;
+   
     margin:auto;
     margin-top:90px;
 }
@@ -19,27 +21,32 @@ h1{
     position:absolute;
     background-color:black;
     border-radius:10px;
+    transform-origin: bottom;
 }
 #hour{
-    width: 0.5%;
-    height: 25%;
-    top: 38%;
-    left: 49.7%;
+    width: 2.5%;
+    height: 18%;
+    top: 32%;
+    left: 47.7%;
+    background-color: #112D4E;
+    opacity: 0.8;
 }
 
 #minute{
-    width: 0.5%;
-    height: 30%;
-    top: 38%;
-    left: 49.7%;
-    background-color:#FF96AD;
-
+    width: 2%;
+    height: 28%;
+    top: 22%;
+    left: 47.7%;
+    background-color: #3F72AF;
+    opacity: 0.8;
+    
 }
 
 #second{
-    width: 0.5%;
+    width: 1.5%;
     height: 33%;
-    top: 38%;
-    left: 49.7%;
-    background-color:#DBE6FD;
+    top: 17%;
+    left: 47.8%;
+    background-color: #DBE6FD;
+    opacity: 0.8;
 }
